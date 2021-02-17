@@ -4,6 +4,7 @@ const URI = process.env.MONGO_URI
 ? process.env.MONGO_URI 
 : 'mongodb://localhost/konzortia-test'
 
+
 mongoose.connect(URI, {
     useNewUrlParser: true,
     useCreateIndex: true,
